@@ -8,6 +8,7 @@
     <div v-for="item in tableList" :key="item.key">{{item.lable}}</div>
     </div>
     <div>dev新创建的文字</div>
+    <div>hello，you good beautiful</div>
   </div>
 </template>
 
