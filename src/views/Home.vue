@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <i class="iconfont icon-xingzhuang60kaobei2" style="color: red"></i>
-    <input placeholder="请输入关键字" v-model="value"/>
+    <input placeholder="我修改了" v-model="value"/>
     <button @click="check">{{$t('toggle')}}</button>
     <div>{{$t('hello')}}</div>
     <div id="itxst">
