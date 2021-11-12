@@ -7,7 +7,7 @@
     <div id="itxst">
     <div v-for="item in tableList" :key="item.key">{{item.lable}}</div>
     </div>
-    <div>master新家一段文字</div>
+    <div>dev新创建的文字</div>
   </div>
 </template>
 
