@@ -7,7 +7,7 @@
     <div id="itxst">
     <div v-for="item in tableList" :key="item.key">{{item.lable}}</div>
     </div>
-    <div>我在这里写了一段文字，你要咋的</div>
+    <div>我把这段文字改了</div>
   </div>
 </template>
 
