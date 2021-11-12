@@ -1,5 +1,23 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+      <hello></hello>
   </div>
 </template>
+
+<script>
+  import hello from '../components/HelloWorld.vue'
+  export default {
+    components : {
+      hello
+    },
+    methods : {
+    },
+    mounted () {
+      
+    }
+  }
+</script>
+
+<style scoped>
+
+</style>
