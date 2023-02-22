@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link :to="{path:'/'}">home</router-link>|
       <router-link :to="{name:'About'}">about</router-link> 
-      <router-link v-if="$store.state.isLogin" :to="{name:'admin'}">| admin</router-link> 
+      <router-link v-if="$store.state.isLogin" :to="{name:'Login'}">| login</router-link> 
     </div>
     <router-view name="a"/>
     <router-view name="b"/>

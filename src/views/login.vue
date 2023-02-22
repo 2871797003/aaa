@@ -14,14 +14,14 @@
                 passWord : ''
             }
         },
-        beforeRouteEnter (to ,form , next) {
-            console.log(form)
-            if(form.name === 'admin') {
-                next()
-            }else {
-                next({name : 'admin'})
-            }
-        }
+        // beforeRouteEnter (to ,form , next) {
+        //     console.log(form)
+        //     if(form.name === 'admin') {
+        //         next()
+        //     }else {
+        //         next({name : 'admin'})
+        //     }
+        // }
     }
 </script>
 

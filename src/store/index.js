@@ -14,7 +14,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    
+    changeLogin (state,pacyload) {
+      state.isLogin = pacyload
+    }
   },
   actions: {
     getUserInfo () {

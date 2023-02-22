@@ -7,9 +7,11 @@ import axios from 'axios'
 import i18n from './lang/index'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import './utils/index'
 Vue.use(ElementUI)
 Vue.config.productionTip = false
-Vue.prototype.$axios = axios
+Vue.prototype.$axios = axios;
+
 new Vue({
   router,
   store,

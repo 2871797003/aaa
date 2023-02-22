@@ -9,19 +9,23 @@ const routes = [
     name: 'Home',
     components: {
       a : () => import('../views/Home.vue')
-    },
+    }
   },
   {
     path: '/about',
     name: 'About',
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-    components: {
-      b : () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-    },
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    children : [
+      {
+        path: '/admin',
+        name: 'admin',
+        component: () => import('../views/admin.vue')
+      }
+    ]
   },
   {
     path : '/login',
-    name : 'login',
+    name : 'Login',
     component : ()=> import('../views/login.vue')
   }
 ]
